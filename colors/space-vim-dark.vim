@@ -200,8 +200,8 @@ call s:hi('SpecialKey'     , 59  , '' , 'None' , 'None')
 call s:hi('SpecialChar'    , 171 , '' , 'bold' , 'bold')
 call s:hi('SpecialComment' , 243  , '' , 'None' , 'None')
 
-call s:hi('SpellBad'   , 168 , '' , 'underline' , 'undercurl')
-call s:hi('SpellCap'   , 110 , '' , 'underline' , 'undercurl')
+call s:hi('SpellBad'   , 168 , 52 , 'underline' , 'undercurl')
+call s:hi('SpellCap'   , 110 , 25 , 'underline' , 'undercurl')
 call s:hi('SpellLocal' , 253 , '' , 'underline' , 'undercurl')
 call s:hi('SpellRare'  , 218 , '' , 'underline' , 'undercurl')
 
@@ -278,6 +278,11 @@ call s:hi('vimHiGroup' , 67 , '' , 'bold' , 'bold')
 call s:hi('rustKeyword' , 68  , '' , 'bold' , 'bold')
 call s:hi('rustModPath' , 68  , '' , 'none' , 'none')
 call s:hi('rustTrait'   , 168 , '' , 'bold' , 'bold')
+
+" toml
+call s:hi('tomlTable' , 169  , '' , 'bold' , 'bold')
+call s:hi('tomlKey' , 68  , '' , 'none' , 'none')
+call s:hi('tomlComment' , 30 , '' , 'none' , 'italic')
 
 " json
 call s:hi('jsonStringSQError', 160, '', 'none', 'none')
