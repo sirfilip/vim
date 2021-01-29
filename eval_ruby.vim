@@ -1,4 +1,4 @@
-function! EvalRuby()
+function! IRB()
 	let l:contents = join(getline(1,line('.')), ";")
 	let l:out = split(system("ruby -e '".l:contents."'"), "\n")
 	if len(l:out) > 0
@@ -6,5 +6,5 @@ function! EvalRuby()
 	endif
 endfunction
 
-command EvalRuby call EvalRuby()
+command IRB call EvalRuby()
 
