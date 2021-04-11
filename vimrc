@@ -58,6 +58,9 @@ filetype plugin indent on
 
 inoremap jk <esc>
 
+" split on command
+command! -nargs=* -complete=shellcmd Rsplit execute "new | r! <args>"
+
 " golang settings
 let g:go_fmt_command = "goimports"
 " let g:go_fmt_fail_silently = 1
