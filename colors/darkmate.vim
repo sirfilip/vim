@@ -16,8 +16,8 @@ endif
 let g:colors_name = "darkmate"
 
 " Main Colors
-" hi Normal             guibg=#232323 ctermbg=235   guifg=#FFFFFF ctermfg=15  gui=none
-hi Visual		          guifg=#FFFFFF ctermfg=15    guibg=#555753 ctermbg=240 gui=none 
+hi Normal             guibg=#232323 ctermbg=235   guifg=#FFFFFF ctermfg=15  gui=none
+hi Visual		      guifg=#FFFFFF ctermfg=15    guibg=#555753 ctermbg=240 gui=none 
 hi String             guifg=#96ff00 ctermfg=118                             gui=none
 hi Delimiter          guifg=#96ff00 ctermfg=118                             gui=none
 hi Boolean            guifg=#ff44cc ctermfg=206                             gui=none
@@ -35,6 +35,7 @@ hi Function           guifg=#FFFFFF ctermfg=15                              gui=
 hi Define             guifg=#FF9900 ctermfg=208                             gui=none
 hi LineNr             guifg=#FFFFFF ctermfg=15                              gui=none
 hi CursorLine         guibg=#000000 ctermbg=0                               gui=none
+hi SignColumn         guibg=#232323 ctermbg=None
 
 " Vim Stuff
 hi vimGroup           guifg=#FFFFFF ctermfg=15                    gui=none
@@ -50,9 +51,9 @@ hi vimCommand         guifg=#FF9900 ctermfg=208                   gui=none
 hi cCharacter           guifg=#FF9900 ctermfg=208                 gui=none
 
 " Javascript Stuff
-hi javaScript		        guifg=#FFFFFF ctermfg=15                  gui=none 
-hi javaScriptGlobal		  guifg=#FFFFFF ctermfg=15                  gui=none 
-hi javaScriptNumber		  guifg=#00c99b ctermfg=42                  gui=none 
+hi javaScript		    guifg=#FFFFFF ctermfg=15                  gui=none 
+hi javaScriptGlobal		guifg=#FFFFFF ctermfg=15                  gui=none 
+hi javaScriptNumber		guifg=#00c99b ctermfg=42                  gui=none 
 hi javaScriptIdentifier guifg=#FF9900 ctermfg=208                 gui=none
 hi javaScriptOperator   guifg=#FF9900 ctermfg=208                 gui=none
 hi javaScriptFunction   guifg=#FF9900 ctermfg=208                 gui=none
