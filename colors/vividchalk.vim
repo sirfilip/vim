@@ -7,14 +7,15 @@
 " Based on the Vibrank Ink theme for TextMate
 " Distributable under the same terms as Vim itself (see :help license)
 
-if has("gui_running") && &background !=# 'dark'
-    set background=dark
-endif
+" if has("gui_running") && &background !=# 'dark'
+"     set background=dark
+" endif
 hi clear
 if exists("syntax_on")
    syntax reset
 endif
 
+set background=dark
 let colors_name = "vividchalk"
 
 " First two functions adapted from inkpot.vim
@@ -85,11 +86,12 @@ hi link diffLine                PreProc
 hi link diffSubname             Comment
 
 call s:hifg("Normal","#EEEEEE","White",87)
-if &background == "light" || has("gui_running")
-    hi Normal guibg=Black ctermbg=Black
-else
-    hi Normal guibg=Black ctermbg=NONE
-endif
+" if &background == "light" || has("gui_running")
+"     hi Normal guibg=Black ctermbg=Black
+" else
+"     hi Normal guibg=Black ctermbg=NONE
+" endif
+hi Normal guibg=Black ctermbg=NONE
 highlight StatusLine    guifg=Black   guibg=#aabbee gui=bold ctermfg=Black ctermbg=White  cterm=bold
 highlight StatusLineNC  guifg=#444444 guibg=#aaaaaa gui=none ctermfg=Black ctermbg=Grey   cterm=none
 "if &t_Co == 256
