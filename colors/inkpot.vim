@@ -221,4 +221,6 @@ else
     endif
 endif
 
+hi SignColumn ctermbg=None
+
 " vim: set et :
