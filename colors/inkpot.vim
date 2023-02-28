@@ -8,6 +8,8 @@
 "
 " To use a black background, :let g:inkpot_black_background = 1
 
+set notermguicolors
+
 set background=dark
 hi clear
 if exists("syntax_on")
