@@ -66,3 +66,6 @@ else
     highlight Search ctermbg=White 
     highlight CursorLine cterm=NONE ctermbg=235
 endif
+
+hi SignColumn ctermbg=NONE guibg=NONE
+set notermguicolors
