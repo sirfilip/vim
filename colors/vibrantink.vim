@@ -69,3 +69,5 @@ endif
 
 hi SignColumn ctermbg=NONE guibg=NONE
 set notermguicolors
+hi CursorLineNr cterm=NONE
+
