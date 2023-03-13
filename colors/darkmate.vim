@@ -125,3 +125,7 @@ hi phpIdentifier        guifg=#00c900 ctermfg=2           gui=none
 hi xmlTag               guifg=#bb66ff ctermfg=42          gui=none
 hi xmlTagName           guifg=#bb66ff ctermfg=42          gui=none
 hi xmlEndTag            guifg=#bb66ff ctermfg=42          gui=none
+
+
+hi CursorLineNr cterm=NONE
+hi CursorLine cterm=NONE
