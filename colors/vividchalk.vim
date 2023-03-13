@@ -177,3 +177,5 @@ call s:hifg("Regexp"         ,"#44B4CC","DarkCyan",21) " 74
 call s:hifg("rubyMethod"     ,"#DDE93D","Yellow",77) " 191
 
 hi SignColumn ctermbg=None guibg=NONE
+hi CursorLineNr cterm=NONE
+hi CursorLine cterm=NONE
