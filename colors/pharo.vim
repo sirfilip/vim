@@ -195,3 +195,5 @@ hi Identifier cterm=none
 if has("gui_win32")
     call s:hi('Cursor', s:bg, s:string, s:none)
 endif
+
+hi CursorLineNr cterm=NONE

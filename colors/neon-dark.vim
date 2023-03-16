@@ -120,3 +120,6 @@ hi CocUnusedHighlight    guifg=#f1f1f1 ctermfg=255 guibg=#3D3D3D ctermbg=237
 " hi CocHintFloat          guifg=#f0005e ctermfg=197
 " hi CocWarningFloat       guifg=#f0005e ctermfg=197
 " hi CocErrorFloat         guifg=#f0005e ctermfg=197
+
+hi CursorLine cterm=NONE
+hi CursorLineNr cterm=NONE

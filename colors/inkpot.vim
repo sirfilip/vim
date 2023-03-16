@@ -224,5 +224,7 @@ else
 endif
 
 hi SignColumn ctermbg=None
+hi CursorLine cterm=NONE ctermbg=0
+hi CursorLineNr cterm=NONE
 
 " vim: set et :

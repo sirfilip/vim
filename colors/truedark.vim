@@ -99,3 +99,6 @@ hi VertSplit    guifg=#444444 guibg=#000000
 
 hi CocMenuSel   guifg=#000000 guibg=#c0c0c0
 hi CocPumSearch guifg=NONE gui=bold
+
+hi CursorLine cterm=NONE guibg=#212121
+hi CursorLineNr cterm=NONE

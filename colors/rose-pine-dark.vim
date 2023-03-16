@@ -77,9 +77,12 @@ hi Title guifg=#e0def4
 hi Pmenu guifg=#e0def4 guibg=#706e86
 hi StatusLine gui=bold guifg=#e0def4 guibg=#706e86
 hi Comment guifg=#706e86 gui=italic
-hi CursorLine guibg=#706e86
+hi CursorLine guibg=#191919
 hi TabLineFill gui=NONE guibg=#706e86
 hi VertSplit gui=NONE guifg=#706e86 guibg=NONE
 hi Visual gui=NONE guibg=#706e86
 hi TabLine guifg=#5045c1 guibg=#706e86 gui=NONE
 hi LineNr guifg=#5045c1 guibg=NONE
+
+hi CursorLineNr cterm=NONE
+hi CursorLine cterm=NONE

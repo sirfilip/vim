@@ -224,3 +224,6 @@ hi OL4 guifg=#6E79F1 ctermfg=69 gui=NONE
 " Modelines: {{{1
 " vim: nowrap fdm=marker
 " }}}
+
+hi CursorLine cterm=NONE
+hi CursorLineNr cterm=NONE

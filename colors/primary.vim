@@ -202,3 +202,6 @@ else
   exe 'hi Folded       '.s:M.'bg='.s:GREYX .' '.s:M.'fg='.s:GREYY .' '.s:M.'=none'
   exe 'hi FoldColumn   '.s:M.'bg='.s:GREYX .' '.s:M.'fg='.s:GREYY .' '.s:M.'=none'
 endif
+
+hi CursorLine cterm=NONE
+hi CursorLineNr cterm=NONE

@@ -110,3 +110,6 @@ exe 'hi htmlSpecialTagName guifg='s:keyword
 
 " Markdown Highlighting
 exe 'hi mkdCode guifg='s:builtin
+
+hi CursorLine cterm=NONE
+hi CursorLineNr cterm=NONE

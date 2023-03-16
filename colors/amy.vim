@@ -220,3 +220,4 @@ hi NERDTreeDirSlash guifg=#631d63
 hi NERDTreeFile guifg=#fec4fd gui=bold
 " hi NERDTreePartFile
 
+hi CursorLineNr cterm=NONE

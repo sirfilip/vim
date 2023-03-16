@@ -195,3 +195,4 @@ hi link jsBranch        Statement   " break continue switch case default return
 hi link jsStatement     Statement   " try catch throw with finally
 hi link jsEnvComment    Comment     " executable
 
+hi CursorLineNr cterm=NONE

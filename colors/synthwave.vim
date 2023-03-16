@@ -112,3 +112,5 @@ hi Underlined guifg=#F9F9FF guibg=#192224 guisp=#192224 gui=underline ctermfg=18
 hi DiffAdd guifg=#00ff33 guibg=#1a4b54 guisp=#1a4b54 gui=NONE ctermfg=47 ctermbg=23 cterm=NONE
 hi TabLine guifg=#000000 guibg=#27c9f2 guisp=#27c9f2 gui=bold ctermfg=NONE ctermbg=45 cterm=bold
 hi cursorim guifg=#192224 guibg=#536991 guisp=#536991 gui=NONE ctermfg=235 ctermbg=60 cterm=NONE
+
+hi CursorLineNr cterm=NONE

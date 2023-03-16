@@ -170,3 +170,5 @@ elseif &t_Co == 256
   highlight IndentGuidesOdd ctermbg=234
   highlight IndentGuidesEven ctermbg=235
 endif
+
+hi CursorLineNr cterm=NONE

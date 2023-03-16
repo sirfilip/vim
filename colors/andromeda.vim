@@ -125,3 +125,5 @@ call s:SetHighlight('jsVariableDef', s:cyan, '', '')
 call s:SetHighlight('ALEError', s:red, '', 'underline')
 call s:SetHighlight('ALEWarning', s:orange, '', 'underline')
 """ End of ALE
+
+hi CursorLineNr cterm=NONE
