@@ -48,7 +48,7 @@ hi Number guifg=#418fdd guibg=NONE guisp=NONE gui=NONE ctermfg=68 ctermbg=NONE c
 hi Boolean guifg=#00ecd8 guibg=NONE guisp=NONE gui=italic ctermfg=50 ctermbg=NONE cterm=italic
 hi Operator guifg=#e92741 guibg=NONE guisp=NONE gui=bold ctermfg=160 ctermbg=NONE cterm=bold
 hi Title guifg=#e92741 guibg=NONE guisp=NONE gui=bold ctermfg=160 ctermbg=NONE cterm=bold
-hi CursorLine guifg=#fdf7cd guibg=NONE guisp=NONE gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
+" hi CursorLine guifg=#fdf7cd guibg=NONE guisp=NONE gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
 hi TabLineFill guifg=#192224 guibg=#1a1a1a guisp=#1a1a1a gui=bold ctermfg=235 ctermbg=234 cterm=bold
 hi VertSplit guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi Question guifg=#fdf7cd guibg=NONE guisp=NONE gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
@@ -196,3 +196,5 @@ hi shStatement guifg=#3ec840 guibg=NONE guisp=NONE gui=NONE ctermfg=1 ctermbg=NO
 hi shDerefSimple guifg=#e1db3f guibg=NONE guisp=NONE gui=NONE ctermfg=185 ctermbg=NONE cterm=NONE
 hi shCommandSub guifg=#e1db3f guibg=NONE guisp=NONE gui=NONE ctermfg=185 ctermbg=NONE cterm=NONE
 hi shQuote guifg=#e1db3f guibg=NONE guisp=NONE gui=NONE ctermfg=185 ctermbg=NONE cterm=NONE
+
+hi CursorLine cterm=NONE guibg=#111111

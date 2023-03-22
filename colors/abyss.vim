@@ -189,3 +189,6 @@ hi Identifier cterm=none
 if has("gui_win32")
     call s:hi('Cursor', s:source, s:primary, s:none)
 endif
+
+set termguicolors
+hi CursorLineNr cterm=NONE

@@ -226,5 +226,6 @@ endif
 hi SignColumn ctermbg=None
 hi CursorLine cterm=NONE ctermbg=17
 hi CursorLineNr cterm=NONE
+hi VertSplit ctermbg=NONE
 
 " vim: set et :

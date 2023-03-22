@@ -70,4 +70,5 @@ endif
 hi SignColumn ctermbg=NONE guibg=NONE
 set notermguicolors
 hi CursorLineNr cterm=NONE
+hi VertSplit ctermbg=white ctermfg=black
 
